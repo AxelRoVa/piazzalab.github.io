@@ -1,40 +1,40 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Valeria Piazza
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Valeria
+last_name: Piazza
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Principal Investigator (Titular "C")
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
-    url: ''
+  - name: Centro de Investigaciones en Óptica (CIO)
+    url: 'https://www.cio.mx/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Bio-photonics & SHG Microscopy
+  - Inner Ear Physiology (Cytoskeleton)
+  - Neuropathology (H-ABC Tubulinopathy)
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
+    - course: Postdoctoral Fellow (HHMI)
+      institution: Harvard Medical School, USA
       year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
+    - course: Postdoctoral Fellow (Alexander von Humboldt)
+      institution: Georg-August-Universität Göttingen, Germany
       year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
+    - course: Ph.D. in Biochemistry and Biophysics
+      institution: V.I.M.M. & University of Padua, Italy
       year: 2008
 
 # Social/Academic Networking
@@ -44,16 +44,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'mailto:vpiazza@cio.mx'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/blabtst
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=0ToAZZAAAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/blabtst
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -72,6 +72,6 @@ user_groups:
   - Researchers
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Estoy interesada en la morfología celular y tisular, desde el punto de vista de las técnicas de microscopía para la visualización y desde la perspectiva de los mecanismos básicos de las enfermedades, en particular del sistema nervioso.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Estoy particularmente interesada en la organización del citoesqueleto de las células que detectan el sonido en el oído interno y en las disfunciones asociadas a los microtúbulos en la mielina.

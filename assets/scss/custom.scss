@@ -1,0 +1,41 @@
+/* ==================================
+// assets/scss/custom.scss
+// Nuevas fuentes: Playfair Display (Títulos) y Lora (Cuerpo)
+// ================================== */
+
+// 1. Importa la fuente directamente desde Google con los pesos especificados
+// (Playfair Display: 400, 700; Lora: 400, 500, 600; Roboto Mono: 400, 700)
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;500;600&family=Roboto+Mono:wght@400;700&display=swap');
+
+// 2. Define y fuerza las variables CSS del tema
+:root {
+  // Fuente para el cuerpo (Lora)
+  --font-body: 'Lora', serif !important;
+  
+  // Fuente para los encabezados (Playfair Display)
+  --font-heading: 'Playfair Display', serif !important;
+  
+  // Fuente para el Navbar (Playfair Display)
+  --font-nav: 'Playfair Display', serif !important;
+  
+  // Fuente para código y monospaced (Roboto Mono)
+  --font-mono: 'Roboto Mono', monospace !important;
+}
+
+// 3. Sobrescribe explícitamente los elementos clave
+// Forzando el uso de las nuevas variables.
+
+// Para Headings (H1, H2, etc.) y Navbar
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+  font-family: var(--font-heading) !important;
+}
+
+// Para el cuerpo de la página (Body, Párrafos, Listas)
+html, body {
+  font-family: var(--font-body) !important;
+}
+
+// Para código y bloques de código
+code, pre {
+  font-family: var(--font-mono) !important;
+}

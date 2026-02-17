@@ -7,9 +7,9 @@
 
 appearance:
   theme_day: minimal
-  theme_night:
-  font: native
-  font_size: L
+  theme_night: minimal
+  font: defult
+  font_size: M
 
 # SEO
 
@@ -116,3 +116,5 @@ extensions:
 publications:
   date_format: January 2006
   citation_style: apa
+
+
