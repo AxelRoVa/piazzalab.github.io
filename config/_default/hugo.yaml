@@ -5,7 +5,7 @@
 
 title: Biophotonics Research Group # Website name
 baseURL: 'https://axelrova.github.io/piazzalab.github.io/' # Website URL
-publishDir: "docs"
+
 
 ############################
 ## LANGUAGE
